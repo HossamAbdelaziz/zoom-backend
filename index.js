@@ -9,7 +9,7 @@ const nodemailer = require("nodemailer");
 const app = express();
 const PORT = 5001;
 
-aapp.use(cors({
+app.use(cors({
   origin: ["http://localhost:3000", "https://asmaagad.com"],
   methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
   allowedHeaders: ["Content-Type", "Authorization"],
