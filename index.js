@@ -10,7 +10,7 @@ const app = express();
 const PORT = process.env.PORT || 5001;
 
 app.use(cors({
-  origin: ["http://localhost:3000", "https://asmaagad.com"],
+  origin: ["http://localhost:3000", "https://asmaagad.com", "https://www.asmaagad.com"],
   methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
   allowedHeaders: ["Content-Type", "Authorization"],
 }));
