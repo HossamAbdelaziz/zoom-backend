@@ -7,7 +7,7 @@ const cors = require("cors");
 const nodemailer = require("nodemailer");
 
 const app = express();
-const PORT = 5001;
+const PORT = process.env.PORT || 5001;
 
 app.use(cors({
   origin: ["http://localhost:3000", "https://asmaagad.com"],
